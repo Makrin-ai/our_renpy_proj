@@ -1,22 +1,39 @@
-﻿# Вы можете расположить сценарий своей игры в этом файле.
-
-# Определение персонажей игры.
+﻿# Определение персонажей
 define e = Character('Эйлин', color="#c8ffc8")
+define m = Character('Мия', color="#ffc8c8")
 
-# Вместо использования оператора image можете просто
-# складывать все ваши файлы изображений в папку images.
-# Например, сцену bg room можно вызвать файлом "bg room.png",
-# а eileen happy — "eileen happy.webp", и тогда они появятся в игре.
-
-# Игра начинается здесь:
+# Начало игры
 label start:
 
     scene bg room
-
     show eileen happy
 
-    e "Вы создали новую игру Ren'Py."
+    e "Привет! Добро пожаловать в нашу игру на Ren'Py."
+    e "Хочешь узнать, что будет дальше?"
 
-    e "Добавьте сюжет, изображения и музыку и отправьте её в мир!"
+    menu:
+        "Да, конечно!":
+            jump good_path
+
+        "Нет, я просто смотрю.":
+            jump neutral_path
+
+label good_path:
+
+    scene bg park with fade
+    show eileen happy
+
+    e "Супер! Тогда вперёд в приключения!"
+    m "Привет! Я Мия. Я тоже с вами!"
+
+    return
+
+label neutral_path:
+
+    scene bg street with fade
+    show eileen neutral
+
+    e "Ну ладно. Просто посмотри, что мы тут делаем :)"
+    e "Если передумаешь — возвращайся!"
 
     return
