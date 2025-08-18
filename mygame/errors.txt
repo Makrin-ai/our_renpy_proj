@@ -1,0 +1,22 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 14: expected statement.
+    break 
+          ^
+
+File "game/script.rpy", line 23: expected statement.
+    "Ботанша 🧠": 
+               ^
+
+File "game/script.rpy", line 26: expected statement.
+    "Хулиганка 😈": 
+                 ^
+
+File "game/script.rpy", line 31: expected menuitem
+    if путь == "ботанша": 
+    ^
+
+Ren'Py Version: Ren'Py 8.3.7.25031702
+Wed Aug  6 17:01:45 2025
