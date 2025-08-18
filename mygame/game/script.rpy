@@ -8,8 +8,10 @@ label start:
     # Явное объявление изображения
     image bg room = "images/room.png"
 
+
     #Показ сцена
-    scene bg room 
+    scene bg room:
+        zoom 1.5
     "День 1..."
     
     # Блок ввода имени с правильными отступами

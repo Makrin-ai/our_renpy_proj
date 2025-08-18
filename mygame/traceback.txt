@@ -1,0 +1,24 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 11, in script
+    fit "contain" #растягивает на весь экран картинку
+Exception: Sayer 'fit' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 11, in script
+    fit "contain" #растягивает на весь экран картинку
+  File "C:\Users\Anatoliy\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 2586, in execute
+    Say.execute(self)
+  File "C:\Users\Anatoliy\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 583, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\Anatoliy\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 472, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'fit' is not defined.
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.3.7.25031702
+mygame 1.0
+Mon Aug 18 16:24:40 2025
