@@ -1,16 +1,16 @@
-2025-08-18 13:39:43 UTC
+2025-08-18 15:46:20 UTC
 Windows-10-10.0.19045
 Ren'Py 8.3.7.25031702
 
 Early init took 0.05s
 Loading error handling took 0.02s
-Loading script took 0.19s
+Loading script took 0.18s
 Loading save slot metadata took 0.02s
 Loading persistent took 0.00s
-Running init code took 0.04s
+Running init code took 0.03s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.01s
+Reloading save slot metadata took 0.02s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Anatoliy\\AppData\\Roaming/RenPy/backups\\renpy':
 Dump and make backups took 0.04s
@@ -28,10 +28,10 @@ Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.01s
 Prepare screens took 0.04s
-Save pyanalysis. took 0.00s
+Save pyanalysis. took 0.01s
 Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 0.35s
+Interface start took 0.20s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2880, 1800)

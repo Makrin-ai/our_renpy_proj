@@ -1608,3 +1608,35 @@ style slider_vbox:
 style slider_slider:
     variant "small"
     xsize 900
+
+screen custom_message(message):
+    modal True
+    zorder 200
+    
+    # Полупрозрачный фон (правильный синтаксис)
+    add Solid("#000000AA"):
+        xsize 1920  # Ширина на весь экран
+        ysize 1080  # Высота на весь экран
+        align (0.5, 0.5)
+
+    # Основное окно сообщения
+    frame:
+        style "say_window"
+        xalign 0.5
+        yalign 0.5
+        xsize 1000
+        ysize None
+        padding (50, 30)
+        
+        text message:
+            size 32
+            color "#FFFFFF"
+            xalign 0.5
+            text_align 0.5
+            layout "subtitle"
+
+    # Кнопка закрытия
+    button:
+        area (0, 0, 1.0, 1.0)  # На весь экран
+        background None
+        action Hide("custom_message")

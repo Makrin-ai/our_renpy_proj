@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 8: end of line expected.
-    scene bg kvartira = "kvartira.jpg"
-                      ^
+File "game/screens.rpy", line 1618: 'xfill' is not a keyword argument or valid child of the add statement.
+    xfill True
+         ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Mon Aug 18 14:26:04 2025
+Mon Aug 18 18:45:01 2025
